@@ -26,9 +26,11 @@
 
     
     <meta name="description" content="This will be a step by step tutorial on how to make your own blog with Rstudio and Hugo.
-Step one: Create githubaccount“But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful.">
+Step one: Create githubaccountSign up on https://github.com/. Github will be used as a host for your website and your profilename on github will be in the url-adress for your site, choose your github-name wisely because you will not be able to change it.
+step two: Install blogdown and HugoCreate a new folder on your computer wich will be your working direktory.">
     <meta property="og:description" content="This will be a step by step tutorial on how to make your own blog with Rstudio and Hugo.
-Step one: Create githubaccount“But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful.">
+Step one: Create githubaccountSign up on https://github.com/. Github will be used as a host for your website and your profilename on github will be in the url-adress for your site, choose your github-name wisely because you will not be able to change it.
+step two: Install blogdown and HugoCreate a new folder on your computer wich will be your working direktory.">
     <meta property="og:type" content="blog">
     <meta property="og:title" content="Create a blog with Rstudio and Hugo">
     <meta property="og:url" content="/2017/02/create-a-blog-with-rstudio-and-hugo/">
@@ -36,7 +38,8 @@ Step one: Create githubaccount“But I must explain to you how all this mistake
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="CobraStatistics">
     <meta name="twitter:description" content="This will be a step by step tutorial on how to make your own blog with Rstudio and Hugo.
-Step one: Create githubaccount“But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful.">
+Step one: Create githubaccountSign up on https://github.com/. Github will be used as a host for your website and your profilename on github will be in the url-adress for your site, choose your github-name wisely because you will not be able to change it.
+step two: Install blogdown and HugoCreate a new folder on your computer wich will be your working direktory.">
     
     
 
@@ -103,7 +106,7 @@ Step one: Create githubaccount“But I must explain to you how all this mistake
         </a>
         <h4 class="sidebar-profile-name">Konrad Nelson</h4>
         
-          <h5 class="sidebar-profile-bio">Way too curious about building websites with Rstudio</h5>
+          <h5 class="sidebar-profile-bio">Way too curious about building websites atm</h5>
         
       </div>
     
@@ -239,17 +242,26 @@ Step one: Create githubaccount“But I must explain to you how all this mistake
 
 
 <p>This will be a step by step tutorial on how to make your own blog with Rstudio and Hugo.</p>
-<div id="step-one-create-githubaccount" class="section level2">
-<h2>Step one: Create githubaccount</h2>
-<p>“But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?”</p>
+<div id="step-one-create-githubaccount" class="section level3">
+<h3>Step one: Create githubaccount</h3>
+<p>Sign up on <a href="https://github.com/" class="uri">https://github.com/</a>. Github will be used as a host for your website and your profilename on github will be in the url-adress for your site, choose your github-name wisely because you will not be able to change it.</p>
 </div>
-<div id="step-two-install-blogdown-and-hugo" class="section level2">
-<h2>step two: Install blogdown and Hugo</h2>
-<p>“At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.” ## Step three: Create repositories</p>
+<div id="step-two-install-blogdown-and-hugo" class="section level3">
+<h3>step two: Install blogdown and Hugo</h3>
+<p>Create a new folder on your computer wich will be your working direktory. Open Rstudio and click on new projekt and then choose existing directory wich will be the new folder you just created.</p>
+<p>Next is installing blogdown and Hugo. Dont forget to remove ‘#’ in the beginning of thee lines if you copy the code below.</p>
+<pre class="installing"><code>
+# install.packages(&quot;blogdown&quot;)
+# install_hugo(version = &quot;latest&quot;, use_brew = T, force)
+</code></pre>
+<p>Troubles? if not continue to next step, else run ‘install.packages(“evaluate”)’, it might clear up some errors.</p>
+</div>
+<div id="step-three-create-repositories" class="section level3">
+<h3>Step three: Create repositories</h3>
 <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.”</p>
 </div>
-<div id="step-four-install-git-bash" class="section level2">
-<h2>Step four: Install git bash</h2>
+<div id="step-four-install-git-bash" class="section level3">
+<h3>Step four: Install git bash</h3>
 </div>
 
 
@@ -453,7 +465,7 @@ Step one: Create githubaccount“But I must explain to you how all this mistake
     
     <h4 id="about-card-name">Konrad Nelson</h4>
     
-      <div id="about-card-bio">Way too curious about building websites with Rstudio</div>
+      <div id="about-card-bio">Way too curious about building websites atm</div>
     
     
       <div id="about-card-job">
@@ -503,7 +515,8 @@ Step one: Create githubaccount“But I must explain to you how all this mistake
                 </span>
               </span>
               <div class="media-content hide-xs font-merryweather">This will be a step by step tutorial on how to make your own blog with Rstudio and Hugo.
-Step one: Create githubaccount“But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful.</div>
+Step one: Create githubaccountSign up on https://github.com/. Github will be used as a host for your website and your profilename on github will be in the url-adress for your site, choose your github-name wisely because you will not be able to change it.
+step two: Install blogdown and HugoCreate a new folder on your computer wich will be your working direktory.</div>
             </div>
             <div style="clear:both;"></div>
             <hr>
