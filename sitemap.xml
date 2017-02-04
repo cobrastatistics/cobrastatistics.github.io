@@ -2,6 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>/2017/02/create-a-blog-with-rstudio-and-hugo/</loc>
+    <lastmod>2017-02-04T13:19:23+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2017/02/making-a-website-with-r-and-hugo/</loc>
+    <lastmod>2017-02-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/2015/07/hello-r-markdown/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
   </url>
@@ -67,6 +77,10 @@
   </url>
   
   <url>
+    <loc>/1/01/</loc>
+  </url>
+  
+  <url>
     <loc>/categories/</loc>
     <priority>0</priority>
   </url>
@@ -79,7 +93,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <lastmod>2017-02-04T13:19:23+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -104,6 +118,12 @@
   <url>
     <loc>/categories/features/</loc>
     <lastmod>2015-05-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/github/</loc>
+    <lastmod>2017-02-04T13:19:23+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -144,6 +164,12 @@
   </url>
   
   <url>
+    <loc>/tags/hugo/</loc>
+    <lastmod>2017-02-04T13:19:23+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/image-gallery/</loc>
     <lastmod>2013-02-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -175,13 +201,13 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <lastmod>2017-02-04T13:19:23+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories/r/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <lastmod>2017-02-04T13:19:23+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -206,6 +232,12 @@
   <url>
     <loc>/tags/responsive/</loc>
     <lastmod>2015-06-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/rstudio/</loc>
+    <lastmod>2017-02-04T13:19:23+01:00</lastmod>
     <priority>0</priority>
   </url>
   
