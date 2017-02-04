@@ -6,28 +6,99 @@ categories: ["R"]
 tags: ["Rstudio", "Hugo", "github"]
 ---
 
-This will be a step by step tutorial on how to make your own blog with Rstudio and Hugo.
+This is a step by step tutorial on how to make your own blog with Rstudio and Hugo.
 
 ### Step one: Create github account
 
-Sign up on https://github.com/. Github will be used as a host for your website and your profilename on github will be in the url-adress for your site, choose your github-name wisely because you will not be able to change it. 
+Sign up on https://github.com/. Github will be used as a host for your website and your profilename on github will be in the url-adress for your site, so choose your github-name wisely because you will not be able to change it. 
 
-### step two: Install blogdown and Hugo
+### Step two: Install blogdown and Hugo
 
 Create a new folder, mine is called 'rweb' but you can name it whatever you want, on your computer wich will be your working direktory. Open Rstudio and click on new projekt and then choose existing directory wich will be the new folder you just created.
 
 Next is installing blogdown and Hugo and setting your working directory. Dont forget to change to your own path in 'setwd()' and remove '#' in the beginning of lines if you copy the code below.
 
-```{installing packages}
+```{r installing packages}
 # install.packages("blogdown")
 # install_hugo(version = "latest", use_brew = T, force)
-# setwd("C:/Users/Konrad/rweb/")
+# setwd("C:/Users/Konrad/rweb")
 ```
 
 Troubles? if not continue to next step, else run 'install.packages("evaluate")', it might clear up some errors.
 
-### Step three: Create repositories
+### Step three: Create two repositories
 
-open https://github.com/ and log on to your profile. Click on '+' in the upper-right corner and choose New repository which you
+open https://github.com/ and log on to your profile. Click on '+' in the upper-right corner and choose New repository which *must* have the same name as your github account. Click the little box wich says "Initialize this repository with a README" above the green 'Create repository' button. Click on the green button.
 
-### Step four: Install git bash
+Do the same procedure once again to make the second repository. This one you can call whatever you want. I called mine 'blog'.
+
+### Step four: Clone your repository
+
+If you dont allready have git bash istalled you can download it from https://git-for-windows.github.io/. 
+
+Go to your second github repository and click on *Clone or download' and copy the URL-adress. Open git bash and type the following code which creates a clone of the repository on your computer. Unix commands is used in git bash and here is a useful cheatcheet http://mally.stanford.edu/~sr/computing/basic-unix.html/, look specifically under 'Directories'.
+
+```{r eval=FALSE}
+# Use pwd to see were you are standing right now.
+pwd
+
+# Use cd to navigate to your working directory. Mine is called 'rweb'.
+cd rweb # you can go through several folders att once, ex: cd Users/yourname/newfolder
+
+# when you are standing in your working directory type 'git clone' and paste the url from your second repository.
+git clone 'repository-url'
+```
+
+Now there should be a new folder, named after your second repository, in your projectfolder. 
+
+
+### Step five: Create website locally
+
+Open your R-project file and change working directory to your new cloned folder inside your current working directory. The next step requires your working directory (e.g. cloned folder) to be empty, therefore move the README-file temporarely out of your cloned folder.
+
+```{r eval=FALSE}
+library(blogdown)
+setwd("path-to-your-cloned-fodler")
+new_site() # only run this once
+```
+
+Now you should see your new website in the viewer window and also a hello-world.rmd file poped up. Now stop the session before proceeding to the newxt step. The is a stopsign in the top-right corner of your console-window.
+
+### Step six: Deploy your website
+
+Open git bash and type the following code.
+
+```{r eval=FALSE}
+# Navigate to your cloned folder with cd if you not allready in it.
+cd clonedfolder
+
+# Remove the public with following code (public will ge regenerated again, no worries)
+rm -rf public
+
+# Kind of cloning your first repository to  a new public folder. Change 'username' to your own username before running the code.
+git submodule add -b master git@github.com:username/username.github.io.git public
+```
+
+Run the serve_site() function in Rstudio to regenerate all files that whree deleted in previous step.
+
+```{r eval=FALSE}
+serve_site()
+```
+
+### Step seven: Deploy your website on github
+
+```{r eval=FALSE}
+# navigate to the public folder
+cd public
+
+# adding changes to git
+git add -A
+
+# comment what changes have been done
+git commit -m "your-message-whithin-the-citationmarks"
+
+# Pushing your lokal website live on internet
+git push origin master
+```
+
+Whithin a couple of minutes your website is hosted at https://yourusername.github.io/. Yay!
