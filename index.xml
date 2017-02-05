@@ -27,10 +27,10 @@
 &lt;div id=&#34;step-two-install-blogdown-and-hugo&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;Step two: Install blogdown and Hugo&lt;/h3&gt;
 &lt;p&gt;Create a new folder, mine is called ‘rweb’ but you can name it whatever you want, on your computer wich will be your working direktory. Open Rstudio and click on new projekt and then choose existing directory wich will be the new folder you just created.&lt;/p&gt;
-&lt;p&gt;Next is installing blogdown and Hugo and setting your working directory. Dont forget to change to your own path in ‘setwd()’ and remove ‘#’ in the beginning of lines if you copy the code below.&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# install.packages(&amp;quot;blogdown&amp;quot;)
-# install_hugo(version = &amp;quot;latest&amp;quot;, use_brew = T, force)
-# setwd(&amp;quot;C:/Users/Konrad/rweb&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Next is installing blogdown and Hugo and setting your working directory. Dont forget to change to your own path in ‘setwd()’ if you copy the code below.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;install.packages(&amp;quot;blogdown&amp;quot;)
+install_hugo(version = &amp;quot;latest&amp;quot;, use_brew = T, force)
+setwd(&amp;quot;C:/Users/Konrad/rweb&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Troubles? if not continue to next step, else run ‘install.packages(“evaluate”)’, it might clear up some errors.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;step-three-create-two-repositories&#34; class=&#34;section level3&#34;&gt;
@@ -97,32 +97,6 @@ git push origin master&lt;/code&gt;&lt;/pre&gt;
 
 
 /BLOGDOWN-HEAD --&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Making a website with R and Hugo</title>
-      <link>/2017/02/making-a-website-with-r-and-hugo/</link>
-      <pubDate>Sat, 04 Feb 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/2017/02/making-a-website-with-r-and-hugo/</guid>
-      <description>
-
-&lt;p&gt;This will be a step by step tutorial on how to make your own blog with Rstudio and Hugo.&lt;/p&gt;
-
-&lt;h2 id=&#34;step-one-create-githubaccount&#34;&gt;Step one: Create githubaccount&lt;/h2&gt;
-
-&lt;p&gt;&amp;ldquo;But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?&amp;rdquo;&lt;/p&gt;
-
-&lt;h2 id=&#34;step-two-install-blogdown-and-hugo&#34;&gt;step two: Install blogdown and Hugo&lt;/h2&gt;
-
-&lt;p&gt;&amp;ldquo;At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.&amp;rdquo;&lt;/p&gt;
-
-&lt;h2 id=&#34;step-three-create-repositories&#34;&gt;Step three: Create repositories&lt;/h2&gt;
-
-&lt;p&gt;&amp;ldquo;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&amp;rdquo;&lt;/p&gt;
-
-&lt;h2 id=&#34;step-four-install-git-bash&#34;&gt;Step four: Install git bash&lt;/h2&gt;
 </description>
     </item>
     

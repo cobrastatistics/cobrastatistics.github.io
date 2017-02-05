@@ -26,10 +26,10 @@
 &lt;div id=&#34;step-two-install-blogdown-and-hugo&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;Step two: Install blogdown and Hugo&lt;/h3&gt;
 &lt;p&gt;Create a new folder, mine is called ‘rweb’ but you can name it whatever you want, on your computer wich will be your working direktory. Open Rstudio and click on new projekt and then choose existing directory wich will be the new folder you just created.&lt;/p&gt;
-&lt;p&gt;Next is installing blogdown and Hugo and setting your working directory. Dont forget to change to your own path in ‘setwd()’ and remove ‘#’ in the beginning of lines if you copy the code below.&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# install.packages(&amp;quot;blogdown&amp;quot;)
-# install_hugo(version = &amp;quot;latest&amp;quot;, use_brew = T, force)
-# setwd(&amp;quot;C:/Users/Konrad/rweb&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Next is installing blogdown and Hugo and setting your working directory. Dont forget to change to your own path in ‘setwd()’ if you copy the code below.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;install.packages(&amp;quot;blogdown&amp;quot;)
+install_hugo(version = &amp;quot;latest&amp;quot;, use_brew = T, force)
+setwd(&amp;quot;C:/Users/Konrad/rweb&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Troubles? if not continue to next step, else run ‘install.packages(“evaluate”)’, it might clear up some errors.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;step-three-create-two-repositories&#34; class=&#34;section level3&#34;&gt;

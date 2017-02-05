@@ -16,12 +16,12 @@ Sign up on https://github.com/. Github will be used as a host for your website a
 
 Create a new folder, mine is called 'rweb' but you can name it whatever you want, on your computer wich will be your working direktory. Open Rstudio and click on new projekt and then choose existing directory wich will be the new folder you just created.
 
-Next is installing blogdown and Hugo and setting your working directory. Dont forget to change to your own path in 'setwd()' and remove '#' in the beginning of lines if you copy the code below.
+Next is installing blogdown and Hugo and setting your working directory. Dont forget to change to your own path in 'setwd()' if you copy the code below.
 
-```{r installing packages}
-# install.packages("blogdown")
-# install_hugo(version = "latest", use_brew = T, force)
-# setwd("C:/Users/Konrad/rweb")
+```{r eval=FALSE}
+install.packages("blogdown")
+install_hugo(version = "latest", use_brew = T, force)
+setwd("C:/Users/Konrad/rweb")
 ```
 
 Troubles? if not continue to next step, else run 'install.packages("evaluate")', it might clear up some errors.
