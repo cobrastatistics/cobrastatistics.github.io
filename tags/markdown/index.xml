@@ -9,11 +9,11 @@
     <atom:link href="/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Odds: Leicester vs Manvhester united</title>
-      <link>/2017/02/odds-leicester-vs-manvhester-united/</link>
+      <title>Odds: Leicester vs Manchester united</title>
+      <link>/2017/02/odds-leicester-vs-manchester-united/</link>
       <pubDate>Sun, 05 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>/2017/02/odds-leicester-vs-manvhester-united/</guid>
+      <guid>/2017/02/odds-leicester-vs-manchester-united/</guid>
       <description>&lt;p&gt;Got inspiration from &lt;a href=&#34;https://plus.maths.org/content/understanding-uncertainty-football-crazy/&#34;&gt;https://plus.maths.org/content/understanding-uncertainty-football-crazy/&lt;/a&gt; and calculated goalprobabilities for todays game. Im using averages from &lt;a href=&#34;http://www.soccerstats.com/trends.asp?league=england&#34;&gt;http://www.soccerstats.com/trends.asp?league=england&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;
@@ -23,14 +23,10 @@
 &lt;ul&gt;
 &lt;li&gt;Average away goals: 1.45&lt;/li&gt;
 &lt;li&gt;League avg. away goals: 1.24&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;attacking strength: 1.45 / 1.24 = 1.169&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Average away conceded: 1.09&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;League avg. away conceded: 1.61&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Defensive weakness: 1.09 / 1.61 = 0.677&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;attacking strength: 1.45 / 1.24 = 1.169&lt;/li&gt;
+&lt;li&gt;Average away conceded: 1.09&lt;/li&gt;
+&lt;li&gt;League avg. away conceded: 1.61&lt;/li&gt;
+&lt;li&gt;Defensive weakness: 1.09 / 1.61 = 0.677&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h4 id=&#34;leicester-attack-and-defense&#34;&gt;Leicester attack and defense&lt;/h4&gt;
@@ -38,14 +34,10 @@
 &lt;ul&gt;
 &lt;li&gt;Average home goals: 1.45&lt;/li&gt;
 &lt;li&gt;League avg. home goals: 1.24&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;attacking strength: 1.45 / 1.24 = 1.169&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Average home conceded: 1.18&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;League avg. home conceded: 1.24&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Defensive weakness: 1.18 / 1.24 = 0.952&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;attacking strength: 1.45 / 1.24 = 1.169&lt;/li&gt;
+&lt;li&gt;Average home conceded: 1.18&lt;/li&gt;
+&lt;li&gt;League avg. home conceded: 1.24&lt;/li&gt;
+&lt;li&gt;Defensive weakness: 1.18 / 1.24 = 0.952&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h4 id=&#34;united-goals-against-leicester&#34;&gt;United goals against leicester&lt;/h4&gt;
@@ -73,26 +65,28 @@
 
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;Probs.United.goal&lt;/td&gt;
-&lt;td&gt;0.25&lt;/td&gt;
-&lt;td&gt;0.35&lt;/td&gt;
-&lt;td&gt;0.24&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Probabilities of United goal&lt;/td&gt;
+&lt;td&gt;0.15&lt;/td&gt;
+&lt;td&gt;0.37&lt;/td&gt;
+&lt;td&gt;0.33&lt;/td&gt;
 &lt;td&gt;0.11&lt;/td&gt;
-&lt;td&gt;0.04&lt;/td&gt;
+&lt;td&gt;0.11&lt;/td&gt;
 &lt;td&gt;0.01&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;Probs.Leicester.goal&lt;/td&gt;
-&lt;td&gt;0.28&lt;/td&gt;
-&lt;td&gt;0.36&lt;/td&gt;
-&lt;td&gt;0.23&lt;/td&gt;
-&lt;td&gt;0.10&lt;/td&gt;
-&lt;td&gt;0.03&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Probabilities of Leicester goal&lt;/td&gt;
+&lt;td&gt;0.18&lt;/td&gt;
+&lt;td&gt;0.38&lt;/td&gt;
+&lt;td&gt;0.31&lt;/td&gt;
+&lt;td&gt;0.09&lt;/td&gt;
 &lt;td&gt;0.01&lt;/td&gt;
+&lt;td&gt;0.00&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+
+&lt;p&gt;Probabilities were calculated with poissons distribution function.&lt;/p&gt;
 
 &lt;p&gt;Maybe go for a tie game?&lt;/p&gt;</description>
     </item>
