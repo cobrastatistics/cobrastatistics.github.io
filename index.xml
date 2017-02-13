@@ -62,15 +62,14 @@
 
 &lt;p&gt;Leicester scores 17 percent more goals then league average during homegames. They conceed 5 percent less goals then league average during homegames.&lt;/p&gt;
 
-&lt;h4 id=&#34;expected-united-goals-against-leicester&#34;&gt;Expected United goals against leicester&lt;/h4&gt;
+&lt;h4 id=&#34;expected-goals&#34;&gt;Expected goals&lt;/h4&gt;
 
-&lt;p&gt;1.169 x 0.952 x 1.24 = 1.38&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Manchester United: 1.169 x 0.952 x 1.24 = 1.38&lt;/li&gt;
+&lt;li&gt;Leicester: 1.169 x 0.677 x 1.61 = 1.27&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;h4 id=&#34;expectedleicester-goals-against-united&#34;&gt;ExpectedLeicester goals against united&lt;/h4&gt;
-
-&lt;p&gt;1.169 x 0.677 x 1.61 = 1.27&lt;/p&gt;
-
-&lt;h2 id=&#34;table-of-probabilites&#34;&gt;Table of probabilites&lt;/h2&gt;
+&lt;h4 id=&#34;table-of-probabilities&#34;&gt;Table of probabilities&lt;/h4&gt;
 
 &lt;table&gt;
 &lt;thead&gt;
@@ -108,7 +107,7 @@
 &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;Probabilities were calculated with poissons distribution function.&lt;/p&gt;
+&lt;p&gt;Table:Probabilities were calculated with &lt;a href=&#34;https://en.wikipedia.org/wiki/Poisson_distribution&#34;&gt;Poissons distribution&lt;/a&gt; function.&lt;/p&gt;
 
 &lt;p&gt;There is a high probability of a tie game.&lt;/p&gt;
 
