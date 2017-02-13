@@ -18,37 +18,58 @@
 
 &lt;p&gt;&lt;/p&gt;
 
-&lt;h4 id=&#34;manu-attack-and-defense&#34;&gt;Manu attack and defense&lt;/h4&gt;
+&lt;h4 id=&#34;manchester-united-attack-and-defense&#34;&gt;Manchester united attack and defense&lt;/h4&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Attacking away
 
 &lt;ul&gt;
 &lt;li&gt;Average away goals: 1.45&lt;/li&gt;
 &lt;li&gt;League avg. away goals: 1.24&lt;/li&gt;
-&lt;li&gt;attacking strength: 1.45 / 1.24 = 1.169&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Attacking strength: 1.45 / 1.24 = 1.169&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Defending away&lt;br /&gt;
+
+&lt;ul&gt;
 &lt;li&gt;Average away conceded: 1.09&lt;/li&gt;
 &lt;li&gt;League avg. away conceded: 1.61&lt;/li&gt;
-&lt;li&gt;Defensive weakness: 1.09 / 1.61 = 0.677&lt;/li&gt;
-&lt;/ul&gt;
+&lt;li&gt;&lt;strong&gt;Defensive weakness: 1.09 / 1.61 = 0.677&lt;/strong&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Manchester united scores almost 17 percent more goals then league average during awaygames. They conceed 32 percent less goals then league average during awaygames.&lt;/p&gt;
 
 &lt;h4 id=&#34;leicester-attack-and-defense&#34;&gt;Leicester attack and defense&lt;/h4&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Attacking home
 
 &lt;ul&gt;
 &lt;li&gt;Average home goals: 1.45&lt;/li&gt;
 &lt;li&gt;League avg. home goals: 1.24&lt;/li&gt;
-&lt;li&gt;attacking strength: 1.45 / 1.24 = 1.169&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Attacking strength: 1.45 / 1.24 = 1.169&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Defending home&lt;br /&gt;
+
+&lt;ul&gt;
 &lt;li&gt;Average home conceded: 1.18&lt;/li&gt;
 &lt;li&gt;League avg. home conceded: 1.24&lt;/li&gt;
-&lt;li&gt;Defensive weakness: 1.18 / 1.24 = 0.952&lt;/li&gt;
-&lt;/ul&gt;
+&lt;li&gt;&lt;strong&gt;Defensive weakness: 1.18 / 1.24 = 0.0.952&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;h4 id=&#34;united-goals-against-leicester&#34;&gt;United goals against leicester&lt;/h4&gt;
+&lt;p&gt;Leicester scores 17 percent more goals then league average during homegames. They conceed 5 percent less goals then league average during homegames.&lt;/p&gt;
+
+&lt;h4 id=&#34;expected-united-goals-against-leicester&#34;&gt;Expected United goals against leicester&lt;/h4&gt;
 
 &lt;p&gt;1.169 x 0.952 x 1.24 = 1.38&lt;/p&gt;
 
-&lt;h4 id=&#34;leicester-goals-against-united&#34;&gt;Leicester goals against united&lt;/h4&gt;
+&lt;h4 id=&#34;expectedleicester-goals-against-united&#34;&gt;ExpectedLeicester goals against united&lt;/h4&gt;
 
 &lt;p&gt;1.169 x 0.677 x 1.61 = 1.27&lt;/p&gt;
 
-&lt;h2 id=&#34;table&#34;&gt;Table&lt;/h2&gt;
+&lt;h2 id=&#34;table-of-probabilites&#34;&gt;Table of probabilites&lt;/h2&gt;
 
 &lt;table&gt;
 &lt;thead&gt;
@@ -65,7 +86,7 @@
 
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;Probabilities of United goal&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;United goal&lt;/td&gt;
 &lt;td&gt;0.15&lt;/td&gt;
 &lt;td&gt;0.37&lt;/td&gt;
 &lt;td&gt;0.33&lt;/td&gt;
@@ -75,7 +96,7 @@
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;Probabilities of Leicester goal&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Leicester goal&lt;/td&gt;
 &lt;td&gt;0.18&lt;/td&gt;
 &lt;td&gt;0.38&lt;/td&gt;
 &lt;td&gt;0.31&lt;/td&gt;
@@ -88,7 +109,9 @@
 
 &lt;p&gt;Probabilities were calculated with poissons distribution function.&lt;/p&gt;
 
-&lt;p&gt;Maybe go for a tie game?&lt;/p&gt;</description>
+&lt;p&gt;There is a high probability of a tie game.&lt;/p&gt;
+
+&lt;p&gt;EDIT: The game ended 0-3&amp;hellip;&lt;/p&gt;</description>
     </item>
     
   </channel>
