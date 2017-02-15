@@ -74,7 +74,7 @@
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
-&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Goals&lt;/th&gt;
 &lt;th&gt;0&lt;/th&gt;
 &lt;th&gt;1&lt;/th&gt;
 &lt;th&gt;2&lt;/th&gt;
@@ -86,30 +86,30 @@
 
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;United goal&lt;/td&gt;
-&lt;td&gt;0.15&lt;/td&gt;
-&lt;td&gt;0.37&lt;/td&gt;
-&lt;td&gt;0.33&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Manchester united&lt;/td&gt;
+&lt;td&gt;0.25&lt;/td&gt;
+&lt;td&gt;0.35&lt;/td&gt;
+&lt;td&gt;0.24&lt;/td&gt;
 &lt;td&gt;0.11&lt;/td&gt;
-&lt;td&gt;0.11&lt;/td&gt;
+&lt;td&gt;0.04&lt;/td&gt;
 &lt;td&gt;0.01&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;Leicester goal&lt;/td&gt;
-&lt;td&gt;0.18&lt;/td&gt;
-&lt;td&gt;0.38&lt;/td&gt;
-&lt;td&gt;0.31&lt;/td&gt;
-&lt;td&gt;0.09&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Leicester&lt;/td&gt;
+&lt;td&gt;0.28&lt;/td&gt;
+&lt;td&gt;0.36&lt;/td&gt;
+&lt;td&gt;0.23&lt;/td&gt;
+&lt;td&gt;0.10&lt;/td&gt;
+&lt;td&gt;0.03&lt;/td&gt;
 &lt;td&gt;0.01&lt;/td&gt;
-&lt;td&gt;0.00&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 
 &lt;p&gt;Table:Probabilities were calculated with &lt;a href=&#34;https://en.wikipedia.org/wiki/Poisson_distribution&#34;&gt;Poissons distribution&lt;/a&gt; function.&lt;/p&gt;
 
-&lt;p&gt;There is a high probability of a tie game.&lt;/p&gt;
+&lt;p&gt;This looks like a tie game. Proboability for 1-1 is 0.36 x 0.35 = 0.126 (12.6%) and the probability for any tie is 0.27 (27%).&lt;/p&gt;
 
 &lt;p&gt;EDIT: The game ended 0-3&amp;hellip;&lt;/p&gt;</description>
     </item>
