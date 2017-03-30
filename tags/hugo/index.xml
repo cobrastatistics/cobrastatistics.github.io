@@ -14,10 +14,11 @@
       <pubDate>Sat, 04 Feb 2017 13:19:23 +0100</pubDate>
       
       <guid>/2017/02/create-a-blog-with-rstudio-and-hugo/</guid>
-      <description>&lt;!-- BLOGDOWN-BODY-BEFORE
+      <description>&lt;!-- BLOGDOWN-HEAD --&gt;
+&lt;!-- /BLOGDOWN-HEAD --&gt;
 
-/BLOGDOWN-BODY-BEFORE --&gt;
-
+&lt;!-- BLOGDOWN-BODY-BEFORE --&gt;
+&lt;!-- /BLOGDOWN-BODY-BEFORE --&gt;
 &lt;p&gt;This is a step by step tutorial on how to make your own blog with Rstudio and Hugo.&lt;/p&gt;
 &lt;div id=&#34;step-one-create-github-account&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;Step one: Create github account&lt;/h3&gt;
@@ -88,14 +89,6 @@ git commit -m &amp;quot;your-message-whithin-the-citationmarks&amp;quot;
 git push origin master&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Whithin a couple of minutes your website is hosted at &lt;a href=&#34;https://yourusername.github.io/&#34; class=&#34;uri&#34;&gt;https://yourusername.github.io/&lt;/a&gt;. Yay!&lt;/p&gt;
 &lt;/div&gt;
-
-
-&lt;!-- BLOGDOWN-HEAD
-
-
-
-
-/BLOGDOWN-HEAD --&gt;
 </description>
     </item>
     
